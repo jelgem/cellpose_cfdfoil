@@ -1,3 +1,9 @@
+# <p>  <b>Cellpose_cfdfoil </b> </p>
+
+This fork of Cellpose contains custom scripts for processing of numerical soot foils generated from CFD. 
+
+
+
 # <p>  <b>Cellpose </b> </p>
 <img src="http://www.cellpose.org/static/images/logo.png?raw=True" width="250" title="cellpose" alt="cellpose" align="right" vspace = "50">
 
