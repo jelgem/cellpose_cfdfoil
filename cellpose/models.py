@@ -21,7 +21,7 @@ from .core import assign_device, run_net, run_3D
 
 _CPSAM_MODEL_URL = "https://huggingface.co/mouseland/cellpose-sam/resolve/main/cpsam"
 _MODEL_DIR_ENV = os.environ.get("CELLPOSE_LOCAL_MODELS_PATH")
-_MODEL_DIR_DEFAULT = Path.home().joinpath(".cellpose", "models")
+_MODEL_DIR_DEFAULT = Path(__file__).parent.parent.joinpath("models")
 MODEL_DIR = Path(_MODEL_DIR_ENV) if _MODEL_DIR_ENV else _MODEL_DIR_DEFAULT
 
 MODEL_NAMES = ["cpsam"]
