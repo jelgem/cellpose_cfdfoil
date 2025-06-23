@@ -1,8 +1,13 @@
 # <p>  <b>Cellpose_cfdfoil </b> </p>
 
-This fork of Cellpose contains custom scripts for processing of numerical soot foils generated from CFD. 
+This **fork** of **Cellpose** contains custom scripts for processing of numerical soot foils generated from CFD. 
 
-✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨
+### Instructions
+1. Clone this repo. Make sure that cellpose is not already installed. Follow the cellpose instructions to create a conda environment "cellpose" and activate it.
+2. Run `pip install -e /path/to/cellpose_cfdfoil`
+3. Create a custom `CELLPOSE_LOCAL_MODELS_PATH` if you want the models to be downloaded into a location outside of the repo.
+
+✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨ ✨
 
 # <p>  <b>Cellpose </b> </p>
 <img src="http://www.cellpose.org/static/images/logo.png?raw=True" width="250" title="cellpose" alt="cellpose" align="right" vspace = "50">
